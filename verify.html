@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container" style="text-align: center;">
+    <div style="margin: 100px auto">
+        <h2>Подтверждение</h2>
+
+            <strong>{{error}}</strong>
+            <form class="form" method="POST" style="margin-top: 30px;">
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="code" class="sr-only">Номер счета</label>
+                    <input type="text" class="form-control" id="code" name="code" placeholder="1111">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Оплатить</button>
+            </form>
+
+    </div>
+</div>
+</body>
+</html>
